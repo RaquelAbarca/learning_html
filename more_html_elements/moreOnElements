@@ -1,0 +1,45 @@
+Empty Elements
+
+Similar to <img>, there are other empty elements that are created with a single opening tag.
+The <hr> element is used to create a horizontal line:
+
+<p>This is some text</p>
+<hr>
+<p>This is another text</p>
+
+The <hr> element represents a thematic break between paragraph elements.
+
+
+
+The <br> element creates a line break in a paragraph.
+
+<p>
+  A <br>
+  B <br>
+  C <br>
+</p>
+
+Without the <br> elements, the paragraph would just be rendered in one line.
+
+
+
+
+There are two important categories of elements in HTML: block-level elements and inline elements.
+
+Block-level elements form a visible block on a page
+and appear on a new line.
+
+For example, each paragraph element appears from a new line:
+
+<p>hello</p>
+<p>this is some text</p>
+<p>this is another text</p>
+
+Block-level elements are usually structural elements on the page, such as headings, paragraphs, lists, navigation menus, or footers.
+
+Inline elements are contained within block-level elements, and represent only small parts of the page.
+For example, <a>, <b>, <strong> and similar elements are inline elements:
+
+<p>
+  A <b>link</b> to my <a href="https://www.sololearn.com">website</a>
+</p>

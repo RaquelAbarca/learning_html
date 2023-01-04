@@ -1,0 +1,32 @@
+Nesting
+Elements can be placed within other elements. This is called nesting. 
+For example, we can have a bold word in a paragraph:
+
+<p><b>HTML</b> is fun</p>
+
+As you can see, the <b> element is nested inside a <p> element.
+
+
+
+Page Structure
+
+An HTML page is a combination of multiple nested elements.
+A basic HTML page has the following structure:
+
+<html>
+   <body>
+   </body>
+</html>
+
+The <html> tag defines the page, while the <body> tag defines the main content  and contains all the elements of the page, such as paragraphs, tables, lists, etc.
+
+<html>
+   <body>
+   <p>
+   </p>
+   </body>
+</html>
+
+<body> is a child of <html>, while <p> is a child of <body>.
+
+The element which includes other elements is called their parent. So, <body> is the parent of the <p> element.

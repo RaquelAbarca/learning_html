@@ -1,0 +1,17 @@
+<img src="tree.jpg" >
+The src attribute specifies the address of the image we want to embed.
+
+
+The alt attribute is used to specify text, which will display if the image fails to load.
+<img src="tree.jpg" alt="A Tree" >
+The alt text acts as a description for the image.
+It is used in screen readers, as well as search engines, as the description of the image
+
+The alt attribute is required for a valid HTML markup.
+In case when your image is just for decoration, you can use a blank alt value:
+<img src="tree.jpg" alt="" >
+
+You can also specify a custom size for the image using the height and width attributes:
+<img src="tree.jpg" alt="A Tree" width="200px" >
+If only one dimension is specified, the other will adjust according to the aspect ratio of the image.
+It can also take percentage values.

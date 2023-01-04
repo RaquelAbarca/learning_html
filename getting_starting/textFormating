@@ -1,0 +1,16 @@
+The <h1> tag is used to create a heading for our page, from <h1> to <h6>.
+The <b> tag is used to make text bold
+The <strong> tag is used to indicate that a text is important. (In terms of styling it also makes the text bold, however, the purpose of it is not just making the text bold, but showcasing its importance compared to the nearby text.)
+    <strong> vs <b>
+    So, we can make text bold using both the <b> and <strong> tags.
+
+    But which one should we use?
+
+    The <strong> element is for content that is of "strong importance," such as warnings and alerts.
+
+    The <b> element is for content that we want to stand out in the sentence.
+
+    The <strong> tag is used to make it semantically important, while <b> is simply styling the text bold.
+The <i> tag is used to make text italic, I can also create italic text using the <em> tag, which is used to show emphasis.
+    The <em> tag is for words that have a stressed emphasis compared to surrounding text.
+To underline text, use the <u> tag

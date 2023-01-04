@@ -1,0 +1,37 @@
+There are two types of lists in HTML: ordered and unordered.
+
+An unordered list is created using the <ul> tag, is made of items marked with bullets.
+
+Each list item is created using the <li> tag. 
+Here is an example list of shopping items:
+
+<ul>
+  <li>Apples</li>
+  <li>Milk</li>
+  <li>Eggs</li>
+</ul>
+
+the items are put between the <ul></ul> tags.
+
+An ordered list uses numbers instead of bullets for the items.
+It is created similar to the unordered list, and uses the <ol> tag instead of <ul> to wrap the items:
+
+<ol>
+  <li>Bob</li>
+  <li>Amy</li>
+  <li>Dave</li>
+</ol>
+
+
+Lists can be nested inside other lists.
+
+<ol>
+  <li>Milk</li>
+  <li>Apples
+    <ul>
+      <li>Red</li>
+      <li>Green</li>
+    </ul>
+  </li>
+  <li>Bananas</li>
+</ol>
