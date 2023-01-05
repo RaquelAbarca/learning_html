@@ -1,0 +1,65 @@
+Forms
+allow users to enter data, which is processed by the website.
+A form contains controls, which include text boxes, buttons, checkboxes, etc.
+Form elements are contained inside a <form> tag:
+
+<form>
+</form>
+
+The <form> element acts as a container for its elements.
+
+------------------------------------------------------------------------------------------------------
+
+Textbox
+
+The input element allows you to create various form elements.
+Its type attribute defines the type of the element.
+For example, let's make a textbox:
+
+<form>
+  <input type="text" >
+</form>
+
+The input element supports various types.
+
+<form>
+  <input type="text" >
+  <input type="email" >
+  <input type="tel" >
+</form>
+
+The types define the content with the value that the input expects. It makes the keyboard open with the corresponding layout, for example, and for the telephone input, it will automatically open the numbers.
+
+------------------------------------------------------------------------------------------------------
+
+Labels
+
+The form elements can have labels. 
+To give an element a label, you first need to add an id attribute to it:
+
+<input type="text" id="name">
+
+The id attribute's value should be unique across the page.
+
+Now we can create a <label> element and associate it with the id we created:
+
+<label for="name">Name</label>
+<input type="text" id="name">
+
+Note that the for attribute is used to associate the label with the id of the form element.
+
+Labels are not just descriptions for the fields, but they are also clickable - when you click a label, the form element associated with it is automatically focused.
+
+------------------------------------------------------------------------------------------------------
+
+Placeholder
+
+The textboxes can also have a placeholder text, which describes the value that the field expects.
+
+<form>
+  <label for="name">Name: </label>
+  <input type="text" id="name" placeholder="John Smith"> 
+  <br><br>
+  <label for="email">Email: </label>
+  <input type="email" id="email" placeholder="name@domain.com">
+</form>

@@ -1,0 +1,32 @@
+The <aside> element is used to define content that is not directly related to the main content but can provide additional information, such as related links, or similar articles.
+
+<aside>
+  <h2>Did you know?</h2>
+
+ <p>The number 42 is, in The Hitchhiker's Guide to the Galaxy by 
+Douglas Adams, the "Answer to the Ultimate Question of Life, 
+the Universe, and Everything," 
+calculated by an enormous supercomputer named 
+Deep Thought over a period of 7.5 million years.</p>
+</aside>
+
+-----------------------------------------------------------------------------------------------------------
+
+A footer comes at the end of the page. It can contain links, copyright notes, etc., and is created using the <footer> tag:
+
+<footer>
+  <p align="center">Copyright</p>
+</footer>
+
+Similar to the header, the footer is commonly shared among different pages of the website.
+
+-----------------------------------------------------------------------------------------------------------
+
+In situations where you simply want to group together elements without any specific meaning, you can use the <div> tag.
+<div>
+  <h1>some title</h1>
+  <p>some text</p>
+  <a href="#">some link</a>
+</div>
+
+<div> is a block level element and acts as a container for other elements.

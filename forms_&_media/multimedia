@@ -1,0 +1,84 @@
+Audio
+
+The audio element allows you to add an audio player to the page.
+The audio file is specified using the src attribute:
+
+<audio src="audio.mp3">
+   Audio not supported
+</audio>
+
+The text between the audio tag is displayed when audio is not supported, for example, when using older browsers.
+
+
+
+
+Controls
+The controls attribute displays the player controls:
+
+<audio src="audio.mp3" controls>
+  Audio not supported
+</audio>
+
+Now when running the code, the browser will display an audio player playing the given track.
+
+
+
+
+Looping
+The loop attribute makes the player automatically start to play the track when it reaches the end.
+
+<audio src="audio.mp3" controls [b]loop[/b]>
+  Audio not supported
+</audio>
+
+here is also an autoplay attribute that makes the audio start playing automatically, however, most browsers disable this feature as it is annoying to most users.
+
+
+
+
+Multiple Sources
+Different browsers support different formats of audio. To maximize compatibility, the audio element allows to add different formats of the same audio track using the <source> element:
+
+<audio controls>
+  <source src="audio.mp3" type="audio/mpeg">
+  <source src="audio.ogg" type="audio/ogg">
+</audio>
+
+Now, if the browser is not able to play the first source, it will attempt to play the second one.
+
+
+
+Video
+Playing video is very similar to the audio element:
+
+<video controls>
+ <source src="video.mp4" type="video/mp4">
+ <source src="video.ogg" type="video/ogg">
+ Video is not supported by your browser
+</video>
+
+As you can see, the video element supports the same syntax and the same attributes (controls, autoplay, loop), as the audio element.
+
+You can specify the height and width of the video player:
+
+<video controls width="480px" height="300px">
+  <source src="video.mp4" type="video/mp4">
+  <source src="video.ogg" type="video/ogg">
+  Video is not supported by your browser
+</video>
+
+Irrespective of the size defined, the video will maintain its aspect ratio.
+
+
+
+
+Embed YouTube Videos
+Another way to embed videos to a page is using the <iframe> element.
+
+For example, to embed a YouTube video, find a video you like, click the Share button below the video and select the Embed button.
+
+This will give you a code with an <iframe> element, like this:
+
+<iframe width="560" height="315" 
+src="https://www.youtube.com/embed/o8kT5c_4PAc" 
+frameborder="0" allowfullscreen></iframe>

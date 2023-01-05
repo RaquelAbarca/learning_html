@@ -1,0 +1,71 @@
+Checkboxes
+
+The input element can be used to make checkboxes.
+
+<h2>Choose your interests:</h2>
+<input type="checkbox" id="tech">
+<label for="tech">Tech</label><br>
+  
+<input type="checkbox" id="sports">
+<label for="sports">Sports</label><br>
+
+<input type="checkbox" id="books">
+<label for="books">Books</label>
+
+
+Radio Buttons
+
+To make the radio buttons grouped, we must give them the same name, using the name attribute:
+
+<h2>Title:</h2>
+<input type="radio" name="title" id="mr">
+<label for="mr">Mr</label><br>
+  
+<input type="radio" name="title" id="ms">
+<label for="ms">Ms</label><br>
+
+<input type="radio" name="title" id="mrs">
+<label for="mrs">Mrs</label>
+
+To make a radio button group all of then need to have the same name
+
+
+
+Textarea
+
+The input element is used to take a single line of text as input.
+
+To make a multi-line input field, use the <textarea> element:
+
+<textarea id="message">
+</textarea>
+
+Note, that the textarea needs to have a closing tag.
+
+
+
+
+
+Drop-down
+A drop-down lets users select one of multiple options.
+
+It can be created using the <select> element:
+
+
+
+
+
+Buttons
+Buttons can be create using the <button> element:
+
+<button>Send</button>
+
+Buttons can also be created using the input element:
+
+<input type="button" value="Send">
+<input type="reset" value="Reset">
+
+The reset type will reset the fields of the form when clicked.
+Note that the button text is provided using the value attribute.
+
+Clicking the button won't do anything right now, We need JavaScript to add functionality to the page.

@@ -1,0 +1,26 @@
+In HTML, the characters <, >, ", ' and & are special characters, and are parts of the HTML syntax itself.
+To include special characters in text, we need to use character references.
+
+These are special codes that represent characters; they start with an ampersand (&), and end with a semicolon (;).
+The < sign is represented using & lt; while > is represented by & gt;
+
+<p> A paragraph is created using the & lt;p& gt; tag </p>
+
+Another commonly used character in HTML is the non-breaking space.
+It is a space that will not break into a new line and is created using & nbsp;
+Two words separated by a non-breaking space will stick together.
+For example:
+
+<b>Speed:</b> 42&nbsp;mph
+
+Another common use of the non-breaking space is to prevent browsers from truncating spaces in HTML pages.
+If you write 5 spaces in your text, the browser will remove 4 of them, but if you use 10 non-breaking spaces, all of them will be preserved.
+
+
+
+
+
+Comments
+
+A comment has to be placed inside <!-- and -->:
+

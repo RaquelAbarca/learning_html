@@ -1,0 +1,68 @@
+All of these elements are used to structure the page.
+They do not add any styling or formatting, but represent invisible "boxes", that contain the content and other elements of the website.
+
+It is important to create a correct structure for the page, because search engines and screen readers use it to read the content of the page and understand its structure.
+
+-       -      -       -       -           -          -          -
+
+In addition to creating individual elements of a page, HTML also provides block level elements used to define sections of your page, such as the header, the footer, the navigation menu, etc. 
+Most pages have a similar structure:
+
+Screenshot 2023-01-05 at 08.24.46.png
+
+This is a generic structure of a page. Your page structure can differ, however it will always be a set of similar "box-like" elements.
+
+-----------------------------------------------------------------------------------------------------------
+
+Header
+
+The header of a website is usually a section on the top of the page, which can include a logo, a name and other similar elements.
+It is also commonly shared between different pages of a website.
+To define a header section, use the <header> tag:
+
+<header>
+  <h1>this is my header</h1>
+</header>
+
+A header can include other HTML elements, such as images, links, etc.
+
+-----------------------------------------------------------------------------------------------------------
+
+Navigation Bar
+
+The navigation bar includes links or buttons that lead to other pages of your website.
+
+It is defined using the <nav> tag:
+
+<nav>
+  <a href="#">link 1</a>
+  <a href="#">link 2</a>
+  <a href="#">link 3</a>
+</nav>
+
+The navigation menu can also be part of the header and include any other HTML elements.
+
+-----------------------------------------------------------------------------------------------------------
+
+Main Content
+
+The main content of the page is defined using the <main> tag, which can include various subsections represented by <article> and <section> tags.
+
+<main>
+  <article>
+    <h2>some heading</h2>
+    <p>some text</p>
+  </article>
+ </main>
+
+<article> encloses a block of content that makes sense on its own without the rest of the page, such as a blog post.
+There needs to be a single <main> element on the page.
+
+-----------------------------------------------------------------------------------------------------------
+
+Article and Section
+<section> is similar to <article>, but it is used for grouping together a single part of the page that constitutes one single piece of functionality, such as a map, or a set of headlines.
+
+It's considered best practice to begin each section with a heading.
+
+An article element can have different sections, and a section can include different articles. It all depends on the structure and content of your page.
